@@ -1,0 +1,14 @@
+<div id="videoContainer"
+  #videoContainer
+  class="youtube-theme"
+  [ngStyle]="{ 'width.px': width, 'height.px': height }"
+>
+  <video 
+    #videoPlayer
+    id="videoPlayer"
+    width="100%"
+    height="100%"
+    [poster]="posterUrl"
+    [muted]="muted"
+  ></video>
+</div>
